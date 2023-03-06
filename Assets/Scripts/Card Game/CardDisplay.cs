@@ -23,9 +23,9 @@ public class CardDisplay : MonoBehaviour
         //Unure why this needs Value, Might have something to do with the Generic Variable Base Script?
         nameText.text = card.name.Value;
         descriptionText.text = card.description.Value;
-        costText.text = card.cost.ToString();
-        attackText.text = card.attackBase.ToString();
-        healthText.text = card.healthBase.ToString();
+        costText.text = card.cost.Value.ToString(); // I have added 'Value' as without it, it cannot take in the Scriptable Object value (In this framework)
+        attackText.text = card.attackBase.Value.ToString();
+        healthText.text = card.healthBase.Value.ToString();
         iconImage.sprite = card.icon.Value;
         backgroundImage.sprite = card.background.Value;
     }

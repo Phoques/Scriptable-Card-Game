@@ -19,13 +19,13 @@ public class CardBase : ScriptableObject
     public SpriteImage background;
 
     //cost
-    public int cost;
+    public Int cost;
 
     //attack
-    public int attackBase;
+    public Int attackBase;
 
     //health
-    public int healthBase;
+    public Int healthBase;
     
 
 

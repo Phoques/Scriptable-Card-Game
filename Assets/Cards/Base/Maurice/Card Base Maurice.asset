@@ -16,6 +16,6 @@ MonoBehaviour:
   description: {fileID: 11400000, guid: 4ab7dfb1c9b3dfd4c81df7b114495671, type: 2}
   icon: {fileID: 11400000, guid: 538fa7fb3ecf3604285955463b721489, type: 2}
   background: {fileID: 11400000, guid: 2d400945df62fec439408be69a1c87d1, type: 2}
-  cost: 2
-  attackBase: 2
-  healthBase: 4
+  cost: {fileID: 11400000, guid: f2019051e5899844f9ee1be4b13a7660, type: 2}
+  attackBase: {fileID: 11400000, guid: 9e6609228cc77394e8152aad2b37ec04, type: 2}
+  healthBase: {fileID: 11400000, guid: 701c0a67bfb42fc458b54943e7ca6100, type: 2}
