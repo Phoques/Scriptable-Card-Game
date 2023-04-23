@@ -1,13 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 public class CardDisplay : MonoBehaviour
 {
-
-
-
     //Card
     public CardBase card;
     //UI Connections
